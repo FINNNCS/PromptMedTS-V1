@@ -20,8 +20,8 @@ import inflect
 import glob
 
 import json
+SEED = 2000
 
-SEED = 2019
 torch.manual_seed(SEED)
 
 p = inflect.engine()
